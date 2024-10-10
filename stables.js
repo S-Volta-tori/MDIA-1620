@@ -63,3 +63,31 @@ console.log("Our horse is old")
       }else{
        console.log(`${horsenickname} is outside`)
       }
+
+////////Lesson 6/////////
+let word = "Rainbow";
+console.log(word.charAt(2));      
+///javascrift count index starton 0/////
+
+
+///////LAB 6 code////////
+//Stables
+//~ introduction to your horses
+//~output the horses at least 3 horses.
+//readme
+//3 confusing things
+//3 things you feel like you have a solid understanding of analogies that you going to ask 
+
+let HorseNames=["The Guy","Shiyo","Kid"];
+let HorseOutput=`There are ${HorseNames.length} staying in the stables: ${HorseNames[0]}, ${HorseNames[1]}, ${HorseNames[2]}.`
+console.log(HorseOutput);
+
+
+let Menu1=["Carrots", "Wheat", "Grass", "Mushrooms"];
+let HorsesAges=["3", "5","8"];
+let TG=`${HorseNames[0]} is ${HorsesAges[0]} years old. He is ${Menu1[0]} killer.`;
+let SY=`${HorseNames[1]} is lovely, she is ${HorsesAges[0]} years old, she loves ${Menu1[1]} and ${Menu1[2]}.`;
+let K=`${HorseNames[2]} is reliable, he can take over the works. He likes ${Menu1[0]} and ${Menu1[1]}, sometimes he tries ${Menu1[3]}.`;
+console. log(TG)
+console. log(SY)
+console. log(K)
